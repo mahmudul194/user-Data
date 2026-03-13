@@ -11,7 +11,7 @@ const displayUser = (users) => {
   users.forEach((user) => {
     const userCard = document.createElement("div");
     userCard.innerHTML = `
-        <div class="user-card border rounded-b-xl shadow-2xl">
+        <div class="user-card border rounded-2xl shadow-2xl">
         <h1 class="text-center font-bold text-2xl"> ${user.name} </h1>
         <p> <span class='font-bold' >Username :</span> ${user.username} </p>
         <p>  <span class='font-bold' >Email :</span> ${user.email} </p>
