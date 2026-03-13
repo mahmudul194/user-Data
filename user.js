@@ -24,7 +24,6 @@ const displayUser = (users) => {
         <p>  <span class='font-bold' >Catch Phrase :</span> ${user.company.catchPhrase} </p>
         <p>  <span class='font-bold' >Base Line :</span> ${user.company.bs} </p>
         </div>
-        
         `;
     userContainer.appendChild(userCard);
   });
